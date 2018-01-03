@@ -59,7 +59,7 @@ p.byline {
 
 h2 {
 	font: bold 25px "Open Sans Condensed", sans-serif;
-    margin: 30px auto 10px auto;
+    margin: 45px auto 20px auto;
 }
 
 .social {
@@ -133,6 +133,11 @@ hr {
 	article #bg {
 		width: 100%;
 		background-size: contain;
+		height: 625px;
+	}
+
+	.title {
+		top: 266px;
 	}
 
 	.title img {
