@@ -26,14 +26,14 @@ p {
 }
 
 p.byline {
-	font: normal 12px "Open Sans", sans-serif;
+    font: bold 20px "Open Sans Condensed", sans-serif;
     text-align: center;
     color: #333;
     margin-bottom: 5px;
 }
 
 #bg{
-	background: url(../img/gift-guide-bg.jpg) no-repeat;
+	background: url(../img/bomb-cyclone-header.jpg) no-repeat;
 	background-color: white;
 	background-size: cover;
 	height: 800px;
@@ -44,10 +44,9 @@ p.byline {
 }
 
 .title{
-	margin: auto;
-	text-align: center;
+	margin: auto 25px;
 	position: relative;
-	top: 290px;
+	top: 400px;
 }
 
 #content {
@@ -58,7 +57,7 @@ p.byline {
     height: auto;
 }
 
-#content div.galleries ul {
+#content div.text ul {
     width: 100%;
     height: auto;
     margin: 0;
@@ -74,28 +73,27 @@ p.byline {
     justify-content: space-around;
 }
 
-#content div.galleries ul li {
+#content div.text ul li {
     width: 300px;
     margin: 10px;
     text-align: center;
 }
 
-#content div.galleries ul li p {
+#content div.text ul li p {
     text-align: left;
 }
 
-#content div.galleries ul a {
+#content div.text ul a {
     color: black;
     cursor: pointer;
 }
 
-#content div.galleries ul a:hover {
+#content div.text ul a:hover {
 	color: #8F1F25;
 }
 
 h2 {
 	text-align: center;
-    font: bold 38px 'Playfair Display', serif;
     margin-bottom: 30px;
 }
 
@@ -103,6 +101,15 @@ h2 {
 	text-align: center;
 	margin: 25px auto;
 	margin-left: 20px;
+}
+
+.latest-news {
+    text-align: center;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 12px;
 }
 
 
