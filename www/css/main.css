@@ -77,7 +77,7 @@ hr {
 	display: grid;
 	grid-template-columns: 350px 350px;
 	justify-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 .grid-item {
   padding-bottom: 15px;

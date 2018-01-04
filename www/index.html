@@ -209,6 +209,7 @@
 		</section>
 
         <p class="latest-news"><a href="http://www.nydailynews.com/tags/nyc-weather">THE LATEST</a>: <strong id="latest-news-headline"></strong></p>
+		
     <script>
         var s = document.createElement('script');
         var rando = function() { 
@@ -222,17 +223,16 @@
         s.onload = function() { document.getElementById('latest-news-headline').innerHTML = hed; }
         s.setAttribute('src', '//interactive.nydailynews.com/feeds/tag-nyc-weather-1.js?' + rando());
         document.getElementsByTagName('head')[0].appendChild(s);
+		
+//		document.setInterval('refreshGrid()', 3000);
+//		
+//		function refreshGrid(){
+//			document.getElementById('grid').innerHTML = ?;
+//		}
     </script>
+		
 	</article>
 </main>
-	
-	<script>
-		document.setInterval('refreshGrid()', 3000);
-		
-		function refreshGrid(){
-			document.getElementById('grid').reload;
-		}
-	</script>
 
 <!-- CONTENT-END -->
 
