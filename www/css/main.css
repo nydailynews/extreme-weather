@@ -73,6 +73,16 @@ hr {
 	margin: auto;
 }
 
+#grid {
+	display: grid;
+	grid-template-columns: 350px 350px;
+	justify-items: center;
+	justify-content: space-evenly;
+}
+.grid-item {
+  padding-bottom: 15px;
+}
+
 .animations {
 	text-align: center;
 }
@@ -116,6 +126,10 @@ hr {
 		margin: 20px;
 		font-size: 17px;
 		line-height: 25px;
+	}
+	
+	#grid {
+		display: inline;
 	}
 
 	.animations img {
