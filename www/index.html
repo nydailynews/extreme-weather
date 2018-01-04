@@ -182,7 +182,21 @@
 			</div>
 		</section>
 
-		<p class="latest-news"><a href="http://www.nydailynews.com/tags/nyc-weather">Read the latest city weather updates</a></p>
+        <p class="latest-news"><a href="http://www.nydailynews.com/tags/nyc-weather">NYC WEATHER NEWS</a>: <strong id="latest-news-headline"></strong></p>
+    <script>
+        var s = document.createElement('script');
+        var rando = function() { 
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for( var i=0; i < 5; i++ )
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+            return text;
+        }
+        s.onload = function() { document.getElementById('latest-news-headline').innerHTML = hed; }
+        s.setAttribute('src', '//interactive.nydailynews.com/feeds/tag-nyc-weather-1.js?' + rando());
+        document.getElementsByTagName('head')[0].appendChild(s);
+    </script>
 	</article>
 </main>
 
@@ -204,13 +218,5 @@
 	</div>
 </div>
 
-<!-- <script>
-	$('main').append('<canvas id="confetti" style="z-index:1;position:fixed; top: 0; left: 0; width: 100%; height: 100%;"></canvas">');
-		var s = document.createElement('script');
-		s.setAttribute('src', 'js/snow.js');
-		s.setAttribute('onload', "window.setTimeout('DeactivateConfetti(); ', 1500)");
-		document.getElementsByTagName('head')[0].appendChild(s);
-		window.setTimeout('$(\"#confetti\").remove();', 8000);
-</script> -->
 </body>
 </html>
