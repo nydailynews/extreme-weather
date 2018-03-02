@@ -74,31 +74,29 @@ hr {
     margin: auto;
 }
 
-#grid {
+#traffic-grid {
     display: grid;
-    grid-template-columns: 300px
-    ;
-    justify-items: center;
-    justify-content: center;
+    grid-template-columns: 450px 450px;
 }
+
 .grid-item {
-  padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .one {
-  grid-column: 1;
+  grid-column: 1 / 2;
   grid-row: 1;
 }
 .two { 
-  grid-column: 2;
+  grid-column: 2 / 2;
   grid-row: 1;
 }
 .three {
-  grid-column: 1;
+  grid-column: 1/2;
   grid-row: 2;
 }
 .four {
-  grid-column: 2;
+  grid-column: 2/2;
   grid-row: 2;
 }
 
