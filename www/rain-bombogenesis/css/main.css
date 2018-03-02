@@ -76,7 +76,7 @@ hr {
 
 #traffic-grid {
     display: grid;
-    grid-template-columns: 450px 450px;
+    grid-template-columns: 480px 480px;
 }
 
 .grid-item {
@@ -109,9 +109,9 @@ hr {
     max-width: 800px;
 }
 
-#grid img {
+#traffic-grid img {
     border: 1px solid #e1e1e1;
-    max-width: 300px;
+    max-width: 480px;
 }
 
 .latest-news {
@@ -138,7 +138,7 @@ hr {
     }
 
     .title img {
-        width: 85%;
+        width: 95%;
     }
 
     #content {
@@ -151,7 +151,7 @@ hr {
         line-height: 25px;
     }
     
-    #grid {
+    #traffic-grid {
         display: inline;
     }
 
