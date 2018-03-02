@@ -47,7 +47,7 @@ p.byline {
     text-align: center;
     margin: auto;
     position: relative;
-    top: 300px;
+    top: 30px;
 }
 
 #content {
@@ -76,7 +76,7 @@ hr {
 
 #traffic-grid {
     display: grid;
-    grid-template-columns: 480px 480px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-item {
