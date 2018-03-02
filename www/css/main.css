@@ -92,6 +92,11 @@ hr {
     max-width: 800px;
 }
 
+#grid img {
+    border: 1px solid #e1e1e1;
+    max-width: 300px;
+}
+
 .latest-news {
     font-size: 17px;
     text-align: center;
